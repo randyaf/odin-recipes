@@ -1,0 +1,32 @@
+body {
+    background-color: #FEFFFE; 
+    margin: 10pt;
+}
+.home-section {
+    text-align: center;
+    background-color: #E9EBF8;
+    border-radius: 20pt;
+    box-shadow: 0pt 0pt 20pt black;
+    padding: 5pt;
+}
+
+.odin-home-img {
+    width: 500px;
+    height: auto;
+    border-radius: 20pt;
+    box-shadow: 0 0 10pt black;
+    margin-bottom: 5pt;
+}
+
+.home-section p {
+    font-size: 24pt;
+    background-color: #B4B8C5;
+    width: 500px;
+    border-radius: 20pt;
+    margin:auto;
+    margin-bottom: 5pt;
+    box-shadow: 0 0 10pt black;
+}
+.home-section a {
+    text-decoration: none;
+}
