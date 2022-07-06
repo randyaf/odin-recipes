@@ -1,13 +1,14 @@
 body {
     background-color: #FEFFFE; 
     margin: 10pt;
+    animation: pulse 5s infinite;
 }
 .home-section {
     text-align: center;
     background-color: #E9EBF8;
     border-radius: 20pt;
     box-shadow: 0pt 0pt 20pt black;
-    padding: 5pt;
+    padding: 20pt;
 }
 
 .odin-home-img {
@@ -29,4 +30,16 @@ body {
 }
 .home-section a {
     text-decoration: none;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        background-color: red;
+    }
 }

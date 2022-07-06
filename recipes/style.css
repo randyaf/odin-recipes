@@ -1,0 +1,23 @@
+body {
+    background-color: #FEFFFE;
+}
+
+.page-body {
+    background-color: #E9EBF8;
+    border-radius: 20pt;
+    text-align: center;
+    box-shadow: 0 0 10pt black;
+    margin: 0 15% 0 15%;
+    padding: 20pt;
+}
+
+
+.ingredient, .step {
+    background-color: #B4B8C5;
+    margin: 0 15% 20pt 15%;
+    text-align: left;
+    padding: 5pt;
+    border-radius: 20pt;
+
+}
+
